@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local secrets and settings
+.env
+.env.*
+
+# Downloaded datasets (re-create with `routelab data download`)
+data/raw/
+
+# Trained model artifacts (re-create with `routelab train`)
+artifacts/
+
+# Local databases and runtime files
+var/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
